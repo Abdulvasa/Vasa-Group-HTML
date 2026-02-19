@@ -1,0 +1,67 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container1 {
+  display: contents;
+}
+ 
+.navigation-thq-navigation-icon-wrapper-elm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-container2 {
+  display: none;
+}
+ 
+.navigation-container3 {
+  display: contents;
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container1 {
+  display: contents;
+}
+ 
+.footer-thq-footer-logo-accent-elm {
+  color: var(--color-accent);
+}
+ 
+.footer-container2 {
+  display: none;
+}
+ 
+.footer-container3 {
+  display: contents;
+}
+
+.about-meet-us-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.about-meet-us-thq-form-confirmation-elm {
+  display: none;
+}
+ 
+.about-meet-us-container2 {
+  display: none;
+}
+ 
+.about-meet-us-container3 {
+  display: contents;
+}
+ 
+.about-meet-us-container4 {
+  display: none;
+}
+ 
+.about-meet-us-container5 {
+  display: contents;
+}

@@ -1,0 +1,67 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container1 {
+  display: contents;
+}
+ 
+.navigation-thq-navigation-icon-wrapper-elm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-container2 {
+  display: none;
+}
+ 
+.navigation-container3 {
+  display: contents;
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container1 {
+  display: contents;
+}
+ 
+.footer-thq-footer-logo-accent-elm {
+  color: var(--color-accent);
+}
+ 
+.footer-container2 {
+  display: none;
+}
+ 
+.footer-container3 {
+  display: contents;
+}
+
+.vasa-trading-agro-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.vasa-trading-agro-thq-agro-form-message-elm {
+  display: none;
+}
+ 
+.vasa-trading-agro-container2 {
+  display: none;
+}
+ 
+.vasa-trading-agro-container3 {
+  display: contents;
+}
+ 
+.vasa-trading-agro-container4 {
+  display: none;
+}
+ 
+.vasa-trading-agro-container5 {
+  display: contents;
+}

@@ -1,0 +1,59 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container1 {
+  display: contents;
+}
+ 
+.navigation-thq-navigation-icon-wrapper-elm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-container2 {
+  display: none;
+}
+ 
+.navigation-container3 {
+  display: contents;
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container1 {
+  display: contents;
+}
+ 
+.footer-thq-footer-logo-accent-elm {
+  color: var(--color-accent);
+}
+ 
+.footer-container2 {
+  display: none;
+}
+ 
+.footer-container3 {
+  display: contents;
+}
+
+.vasa-trading-transport-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.vasa-trading-transport-thq-success-message-elm {
+  display: none;
+}
+ 
+.vasa-trading-transport-container2 {
+  display: none;
+}
+ 
+.vasa-trading-transport-container3 {
+  display: contents;
+}
