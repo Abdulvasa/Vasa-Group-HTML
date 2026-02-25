@@ -1,20 +1,1787 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-</head>
-<body>
-    <h1>Contact Us</h1>
-    <form action="https://formspree.io/f/mdaldjok" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" required></textarea><br><br>
-        <input type="submit" value="Submit">
-    </form>
-</body>
+  <head>
+    <title>Contact-Us - Vasa Group</title>
+    <meta property="og:title" content="Contact-Us - Vasa Group" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Roboto;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0.02em;
+        line-height: 1.6;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/vasa group.jpg"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./contact-us.css" rel="stylesheet" />
+
+      <div class="contact-us-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div class="navigation-container1">
+            <nav id="mainNav" class="navigation-bar">
+              <div class="navigation-container">
+                <a href="index.html">
+                  <div class="navigation-logo">
+                    <div class="navigation-logo-icon"><span>V</span></div>
+                    <span class="section-title">VASA Group</span>
+                  </div>
+                </a>
+                <div class="navigation-desktop-menu">
+                  <a href="index.html">
+                    <div class="navigation-link"><span>Home</span></div>
+                  </a>
+                  <a href="about-meet-us.html">
+                    <div class="navigation-link"><span>About</span></div>
+                  </a>
+                  <div class="navigation-dropdown">
+                    <button
+                      aria-haspopup="true"
+                      class="navigation-link navigation-dropdown-trigger"
+                    >
+                      <span>Our Businesses</span>
+                      <div class="navigation-thq-navigation-icon-wrapper-elm">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m6 9l6 6l6-6"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </svg>
+                      </div>
+                    </button>
+                    <div class="navigation-dropdown-content">
+                      <a href="vasa-trading-transport.html">
+                        <div class="navigation-dropdown-link">
+                          <span>VASA Trading Transport</span>
+                        </div>
+                      </a>
+                      <a href="VASA Trading Agro">
+                        <div class="navigation-dropdown-link">
+                          <span>VASA Trading Agro</span>
+                        </div>
+                      </a>
+                      <a href="moz-fumigation.html">
+                        <div class="navigation-dropdown-link">
+                          <span>MOZ FUMIGATION</span>
+                        </div>
+                      </a>
+                      <a href="MOZEX">
+                        <div class="navigation-dropdown-link">
+                          <span>MOZEX</span>
+                        </div>
+                      </a>
+                      <a href="vasa-autoshop.html">
+                        <div class="navigation-dropdown-link">
+                          <span>VASA AUTOSHOP</span>
+                        </div>
+                      </a>
+                      <a href="ELITE BUILDERS">
+                        <div class="navigation-dropdown-link">
+                          <span>ELITE BUILDERS</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <a href="contact-us.html">
+                    <div class="btn-sm btn btn-primary">
+                      <span>Contact Us</span>
+                    </div>
+                  </a>
+                </div>
+                <button
+                  id="mobileMenuOpen"
+                  aria-label="Open Menu"
+                  aria-expanded="false"
+                  class="navigation-mobile-toggle"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M4 6h16M4 12h16M4 18h16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </nav>
+            <div id="mobileOverlay" class="navigation-mobile-overlay">
+              <div class="navigation-mobile-header">
+                <a href="index.html">
+                  <div class="navigation-logo">
+                    <div class="navigation-logo-icon"><span>V</span></div>
+                    <span class="section-title">VASA Group</span>
+                  </div>
+                </a>
+                <button
+                  id="mobileMenuClose"
+                  aria-label="Close Menu"
+                  class="navigation-mobile-close"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1zm-5.5-3.5l-5 5m0-5l5 5"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="navigation-mobile-content">
+                <div class="navigation-mobile-links">
+                  <a href="index.html">
+                    <div class="navigation-mobile-link"><span>Home</span></div>
+                  </a>
+                  <a href="about-meet-us.html">
+                    <div class="navigation-mobile-link">
+                      <span>About Us</span>
+                    </div>
+                  </a>
+                  <div class="navigation-mobile-group">
+                    <span class="navigation-mobile-label">Our Companies</span>
+                    <a href="vasa-trading-transport.html">
+                      <div class="navigation-mobile-link">
+                        <span>VASA Trading Transport</span>
+                      </div>
+                    </a>
+                    <a href="VASA Trading Agro">
+                      <div class="navigation-mobile-link">
+                        <span>VASA Trading Agro</span>
+                      </div>
+                    </a>
+                    <a href="moz-fumigation.html">
+                      <div class="navigation-mobile-link">
+                        <span>MOZ FUMIGATION</span>
+                      </div>
+                    </a>
+                    <a href="MOZEX">
+                      <div class="navigation-mobile-link">
+                        <span>MOZEX</span>
+                      </div>
+                    </a>
+                    <a href="vasa-autoshop.html">
+                      <div class="navigation-mobile-link">
+                        <span>VASA AUTOSHOP</span>
+                      </div>
+                    </a>
+                    <a href="ELITE BUILDERS">
+                      <div class="navigation-mobile-link">
+                        <span>ELITE BUILDERS</span>
+                      </div>
+                    </a>
+                  </div>
+                  <a href="contact-us.html">
+                    <div class="btn btn-primary btn-lg">
+                      <span>Contact Us</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <script defer="" data-name="navigation-logic">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const mobileMenuOpen = document.getElementById("mobileMenuOpen")
+                      const mobileMenuClose = document.getElementById("mobileMenuClose")
+                      const mobileOverlay = document.getElementById("mobileOverlay")
+                      const navBar = document.getElementById("mainNav")
+
+                      mobileMenuOpen.addEventListener("click", () => {
+                        mobileOverlay.style.display = "flex"
+                        document.body.style.overflow = "hidden"
+                        mobileMenuOpen.setAttribute("aria-expanded", "true")
+                      })
+
+                      mobileMenuClose.addEventListener("click", () => {
+                        mobileOverlay.style.display = "none"
+                        document.body.style.overflow = ""
+                        mobileMenuOpen.setAttribute("aria-expanded", "false")
+                      })
+
+                      // Handle scroll effect for navigation
+                      window.addEventListener("scroll", () => {
+                        if (window.scrollY > 50) {
+                          navBar.style.padding = "var(--spacing-sm) 0"
+                          navBar.style.boxShadow = "0 4px 20px rgba(0,0,0,0.05)"
+                        } else {
+                          navBar.style.padding = "var(--spacing-md) 0"
+                          navBar.style.boxShadow = "none"
+                        }
+                      })
+
+                      // Close mobile menu on link click
+                      const mobileLinks = mobileOverlay.querySelectorAll(".navigation-mobile-link, .btn")
+                      mobileLinks.forEach((link) => {
+                        link.addEventListener("click", () => {
+                          mobileOverlay.style.display = "none"
+                          document.body.style.overflow = ""
+                          mobileMenuOpen.setAttribute("aria-expanded", "false")
+                        })
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </navigation-wrapper>
+        <section class="hero-hub">
+          <div class="hero-hub-media">
+            <img
+              alt="VASA Group Logistics Hub Mozambique"
+              src="https://images.pexels.com/photos/15602086/pexels-photo-15602086.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+              class="hero-hub-img"
+            />
+            <div class="hero-hub-overlay"></div>
+          </div>
+          <div class="hero-hub-container">
+            <div class="hero-hub-content">
+              <h1 class="hero-title">Contact Us — Central Hub</h1>
+              <p class="hero-subtitle">
+                Building Mozambique Through Unified Excellence. VASA Group
+                operates from our strategic base in Nacala, providing nationwide
+                operations across multiple industries.
+              </p>
+              <div class="hero-hub-summary">
+                <div class="hero-hub-item">
+                  <span class="hero-hub-icon-wrapper">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                  </span>
+                  <div class="hero-hub-text">
+                    <span class="hero-hub-label">Direct Line</span>
+                    <span class="hero-hub-value">+258 84 000 0000</span>
+                  </div>
+                </div>
+                <div class="hero-hub-item">
+                  <span class="hero-hub-icon-wrapper">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                        ></path>
+                        <rect x="2" y="4" rx="2" width="20" height="16"></rect>
+                      </g>
+                    </svg>
+                  </span>
+                  <div class="hero-hub-text">
+                    <span class="hero-hub-label">Email Us</span>
+                    <span class="hero-hub-value">info@vasagroup.co.mz</span>
+                  </div>
+                </div>
+                <div class="hero-hub-item">
+                  <span class="hero-hub-icon-wrapper">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 6v6l4 2"></path>
+                        <circle r="10" cx="12" cy="12"></circle>
+                      </g>
+                    </svg>
+                  </span>
+                  <div class="hero-hub-text">
+                    <span class="hero-hub-label">Office Hours</span>
+                    <span class="hero-hub-value">Mon - Sat: 08:00 - 17:00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-hub-actions">
+                <a href="#inquiry-form">
+                  <div class="btn btn-accent btn-lg">
+                    <span>Send Inquiry</span>
+                  </div>
+                </a>
+                <a href="#company-contacts">
+                  <div class="btn btn-lg btn-outline">
+                    <span>View Company Units</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="central-contact">
+          <div class="central-contact-container">
+            <div class="central-contact-header">
+              <h2 class="section-title">Primary Group Contact</h2>
+              <p class="section-subtitle">VASA Group Corporate Headquarters</p>
+            </div>
+            <div class="central-contact-grid">
+              <div class="contact-us-contact-card">
+                <div class="contact-card-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="contact-card-title">Phone</h3>
+                <p class="section-content">+258 84 123 4567</p>
+              </div>
+              <div class="contact-us-contact-card">
+                <div class="contact-card-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect
+                        x="5"
+                        y="2"
+                        rx="2"
+                        ry="2"
+                        width="14"
+                        height="20"
+                      ></rect>
+                      <path d="M12 18h.01"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="contact-card-title">WhatsApp</h3>
+                <p class="section-content">+258 82 987 6543</p>
+              </div>
+              <div class="contact-us-contact-card">
+                <div class="contact-card-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                      <rect x="2" y="4" rx="2" width="20" height="16"></rect>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="contact-card-title">Email</h3>
+                <p class="section-content">admin@vasagroup.co.mz</p>
+              </div>
+              <div class="contact-us-contact-card">
+                <div class="contact-card-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                      ></path>
+                      <circle r="3" cx="12" cy="10"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="contact-card-title">Address</h3>
+                <p class="section-content">
+                  Avenida Principal, Porto de Nacala, Mozambique
+                </p>
+              </div>
+              <div class="contact-us-contact-card">
+                <div class="contact-card-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M12 6v6l4 2"></path>
+                      <circle r="10" cx="12" cy="12"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="contact-card-title">Office Hours</h3>
+                <p class="section-content">
+                  <span>Mon-Fri: 08:00-17:00</span>
+                  <br />
+                  <span>Sat: 08:00-12:00</span>
+                </p>
+              </div>
+              <div class="contact-us-contact-card accent-card">
+                <div class="contact-card-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                      ></path>
+                      <circle r="3" cx="12" cy="10"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="contact-card-title">Location</h3>
+                <a href="#">
+                  <div class="btn-sm btn btn-accent">
+                    <span>Get Directions</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="company-contacts" class="company-blocks">
+          <div class="company-blocks-container">
+            <div class="company-blocks-header">
+              <h2 class="section-title">Direct Business Unit Contacts</h2>
+              <p class="section-subtitle">
+                Reach our specialized departments directly
+              </p>
+            </div>
+            <div class="company-blocks-grid">
+              <div class="unit-card">
+                <h3 class="unit-card-name">VASA Trading Transport</h3>
+                <div class="unit-card-details">
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span>+258 84 100 0001</span>
+                  </div>
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                        ></path>
+                        <rect x="2" y="4" rx="2" width="20" height="16"></rect>
+                      </g>
+                    </svg>
+                    <span>transport@vasagroup.co.mz</span>
+                  </div>
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 6v6l4 2"></path>
+                        <circle r="10" cx="12" cy="12"></circle>
+                      </g>
+                    </svg>
+                    <span>24/7 Logistics Operations</span>
+                  </div>
+                </div>
+              </div>
+              <div class="unit-card">
+                <h3 class="unit-card-name">VASA Trading Agro</h3>
+                <div class="unit-card-details">
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span>+258 84 100 0002</span>
+                  </div>
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                        ></path>
+                        <rect x="2" y="4" rx="2" width="20" height="16"></rect>
+                      </g>
+                    </svg>
+                    <span>agro@vasagroup.co.mz</span>
+                  </div>
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 6v6l4 2"></path>
+                        <circle r="10" cx="12" cy="12"></circle>
+                      </g>
+                    </svg>
+                    <span>08:00 - 17:00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="unit-card">
+                <h3 class="unit-card-name">MOZ FUMIGATION</h3>
+                <div class="unit-card-details">
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span>+258 84 100 0003</span>
+                  </div>
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                        ></path>
+                        <rect x="2" y="4" rx="2" width="20" height="16"></rect>
+                      </g>
+                    </svg>
+                    <span>fumigation@vasagroup.co.mz</span>
+                  </div>
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 6v6l4 2"></path>
+                        <circle r="10" cx="12" cy="12"></circle>
+                      </g>
+                    </svg>
+                    <span>Emergency Services Available</span>
+                  </div>
+                </div>
+              </div>
+              <div class="unit-card">
+                <h3 class="unit-card-name">MOZEX</h3>
+                <div class="unit-card-details">
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span>+258 84 100 0004</span>
+                  </div>
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                        ></path>
+                        <rect x="2" y="4" rx="2" width="20" height="16"></rect>
+                      </g>
+                    </svg>
+                    <span>mozex@vasagroup.co.mz</span>
+                  </div>
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 6v6l4 2"></path>
+                        <circle r="10" cx="12" cy="12"></circle>
+                      </g>
+                    </svg>
+                    <span>Port Hours Synchronization</span>
+                  </div>
+                </div>
+              </div>
+              <div class="unit-card">
+                <h3 class="unit-card-name">VASA AUTOSHOP</h3>
+                <div class="unit-card-details">
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span>+258 84 100 0005</span>
+                  </div>
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                        ></path>
+                        <rect x="2" y="4" rx="2" width="20" height="16"></rect>
+                      </g>
+                    </svg>
+                    <span>autoshop@vasagroup.co.mz</span>
+                  </div>
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 6v6l4 2"></path>
+                        <circle r="10" cx="12" cy="12"></circle>
+                      </g>
+                    </svg>
+                    <span>07:30 - 18:00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="unit-card">
+                <h3 class="unit-card-name">ELITE BUILDERS</h3>
+                <div class="unit-card-details">
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span>+258 84 100 0006</span>
+                  </div>
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                        ></path>
+                        <rect x="2" y="4" rx="2" width="20" height="16"></rect>
+                      </g>
+                    </svg>
+                    <span>builders@vasagroup.co.mz</span>
+                  </div>
+                  <div class="unit-detail">
+                    <svg
+                      width="18"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 6v6l4 2"></path>
+                        <circle r="10" cx="12" cy="12"></circle>
+                      </g>
+                    </svg>
+                    <span>Project Based Hours</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="inquiry-form" class="inquiry-hub">
+          <div class="inquiry-hub-container">
+            <div class="contact-us-inquiry-card">
+              <div class="contact-us-inquiry-header">
+                <h2 class="section-title">
+                  Request a Service or Send an Inquiry
+                </h2>
+                <p class="section-content">
+                  Submit your service requests, job inquiries, or purchase
+                  requests directly to our management team.
+                </p>
+              </div>
+              <form
+                id="centralInquiryForm"
+                action="/submit-inquiry"
+                method="POST"
+                data-form-id="32e020a7-597d-42f5-992f-0e45dce0ed4e"
+                class="inquiry-form"
+              >
+                <div class="contact-us-form-grid form-grid">
+                  <div class="contact-us-form-group form-group">
+                    <label for="fullName">Full Name</label>
+                    <input
+                      type="text"
+                      id="fullName"
+                      name="fullName"
+                      required="true"
+                      placeholder="John Doe"
+                      data-form-field-id="fullName"
+                    />
+                  </div>
+                  <div class="contact-us-form-group form-group">
+                    <label for="companyName">Company Name (optional)</label>
+                    <input
+                      type="text"
+                      id="companyName"
+                      name="companyName"
+                      placeholder="Business Ltd."
+                      data-form-field-id="companyName"
+                    />
+                  </div>
+                  <div class="contact-us-form-group form-group">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input
+                      type="tel"
+                      id="phoneNumber"
+                      name="phoneNumber"
+                      required="true"
+                      placeholder="+258 ..."
+                      data-form-field-id="phoneNumber"
+                    />
+                  </div>
+                  <div class="contact-us-form-group form-group">
+                    <label for="whatsappNumber">WhatsApp Number</label>
+                    <input
+                      type="tel"
+                      id="whatsappNumber"
+                      name="whatsappNumber"
+                      required="true"
+                      placeholder="+258 ..."
+                      data-form-field-id="whatsappNumber"
+                    />
+                  </div>
+                  <div class="full-width contact-us-form-group form-group">
+                    <label for="emailAddress">Email Address</label>
+                    <input
+                      type="email"
+                      id="emailAddress"
+                      name="emailAddress"
+                      required="true"
+                      placeholder="john@example.com"
+                      data-form-field-id="emailAddress"
+                    />
+                  </div>
+                  <div class="contact-us-form-group form-group">
+                    <label for="selectService">Select Service / Company</label>
+                    <select
+                      id="selectService"
+                      name="selectService"
+                      required="true"
+                      data-form-field-id="selectService"
+                    >
+                      <option value="true" disabled="true" selected="true">
+                        Choose a business unit
+                      </option>
+                      <option value="transport">VASA Trading Transport</option>
+                      <option value="agro">VASA Trading Agro</option>
+                      <option value="fumigation">MOZ FUMIGATION</option>
+                      <option value="mozex">MOZEX</option>
+                      <option value="autoshop">VASA AUTOSHOP</option>
+                      <option value="builders">ELITE BUILDERS</option>
+                    </select>
+                  </div>
+                  <div class="contact-us-form-group form-group">
+                    <label for="requestType">Type of Request</label>
+                    <select
+                      id="requestType"
+                      name="requestType"
+                      required="true"
+                      data-form-field-id="requestType"
+                    >
+                      <option value="true" disabled="true" selected="true">
+                        Choose request type
+                      </option>
+                      <option value="service">Service Request</option>
+                      <option value="purchase">Purchase Request</option>
+                      <option value="partnership">Partnership</option>
+                      <option value="general">General Inquiry</option>
+                    </select>
+                  </div>
+                  <div class="full-width contact-us-form-group form-group">
+                    <label for="description">Description of Request</label>
+                    <textarea
+                      id="description"
+                      name="description"
+                      rows="5"
+                      required="true"
+                      placeholder="Provide details about your project or inquiry..."
+                      data-form-field-id="description"
+                    ></textarea>
+                  </div>
+                  <div class="full-width contact-us-form-group form-group">
+                    <label>Preferred Contact Method</label>
+                    <div class="radio-group">
+                      <label class="radio-label">
+                        <input
+                          type="radio"
+                          id="thq_contactmethod_LP8X"
+                          name="contactMethod"
+                          value="whatsapp"
+                          required="true"
+                          data-form-field-id="thq_contactmethod_LP8X"
+                        />
+                        <span>WhatsApp</span>
+                      </label>
+                      <label class="radio-label">
+                        <input
+                          type="radio"
+                          id="thq_contactmethod_t4P1"
+                          name="contactMethod"
+                          value="phone"
+                          data-form-field-id="thq_contactmethod_t4P1"
+                        />
+                        <span>Phone</span>
+                      </label>
+                      <label class="radio-label">
+                        <input
+                          type="radio"
+                          id="thq_contactmethod_Q69W"
+                          name="contactMethod"
+                          value="email"
+                          data-form-field-id="thq_contactmethod_Q69W"
+                        />
+                        <span>Email</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  id="thq_button_rnMv"
+                  name="button"
+                  type="submit"
+                  data-form-field-id="thq_button_rnMv"
+                  class="full-width btn btn-accent btn-lg"
+                >
+                  Submit Inquiry
+                </button>
+              </form>
+              <div
+                id="formSuccessMessage"
+                class="contact-us-thq-form-success-msg-elm contact-us-form-success-msg"
+              >
+                <div class="success-icon">
+                  <svg
+                    width="48"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="48"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                      ></path>
+                      <path d="m9 12l2 2l4-4"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3>Request Received</h3>
+                <p>
+                  Your request has been received. Our team will contact you
+                  within 24 hours.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="coverage-info">
+          <div class="coverage-info-container">
+            <div class="coverage-grid">
+              <div class="coverage-feature">
+                <div class="feature-icon">
+                  <svg
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                      ></path>
+                      <circle r="3" cx="12" cy="10"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Nationwide Operations</h3>
+                <p class="section-content">
+                  While headquartered in Nacala, VASA Group provides
+                  comprehensive services across all provinces of Mozambique,
+                  ensuring reliable logistics and support wherever you are.
+                </p>
+              </div>
+              <div class="coverage-feature">
+                <div class="feature-icon">
+                  <svg
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M12 6v6l4 2"></path>
+                      <circle r="10" cx="12" cy="12"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Standard Hours</h3>
+                <p class="section-content">
+                  Our administrative offices are open Monday to Friday (08:00 -
+                  17:00) and Saturday (08:00 - 12:00). Operational units such as
+                  Transport and Security follow 24/7 cycles.
+                </p>
+              </div>
+              <div class="coverage-feature">
+                <div class="feature-icon">
+                  <svg
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Emergency Support</h3>
+                <p class="section-content">
+                  For after-hours emergencies or urgent logistics support,
+                  please contact our dedicated 24-hour response line at +258 84
+                  999 0000 for immediate assistance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="support-faq">
+          <div class="support-faq-container">
+            <div class="support-faq-header">
+              <h2 class="section-title">Support &amp; FAQs</h2>
+              <p class="section-subtitle">
+                Common questions about contacting VASA Group
+              </p>
+            </div>
+            <div class="faq-accordion-group">
+              <details class="faq-item">
+                <summary class="faq-summary">
+                  <span>What is the typical response time?</span>
+                  <svg
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    class="faq-chevron"
+                  >
+                    <path
+                      d="m6 9l6 6l6-6"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </summary>
+                <div class="faq-content">
+                  <p class="section-content">
+                    We operate with a 24-hour response promise. Most inquiries
+                    submitted through our central hub are addressed within one
+                    business day by the relevant department head.
+                  </p>
+                </div>
+              </details>
+              <details class="faq-item">
+                <summary class="faq-summary">
+                  <span>Which company should I contact for logistics?</span>
+                  <svg
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    class="faq-chevron"
+                  >
+                    <path
+                      d="m6 9l6 6l6-6"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </summary>
+                <div class="faq-content">
+                  <p class="section-content">
+                    For heavy haulage and transport, contact VASA Trading
+                    Transport. For customs clearing and forwarding, MOZEX is
+                    your dedicated partner. You can select both in our inquiry
+                    form for integrated services.
+                  </p>
+                </div>
+              </details>
+              <details class="faq-item">
+                <summary class="faq-summary">
+                  <span>Do you have offices outside of Nacala?</span>
+                  <svg
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    class="faq-chevron"
+                  >
+                    <path
+                      d="m6 9l6 6l6-6"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </summary>
+                <div class="faq-content">
+                  <p class="section-content">
+                    Our main administrative hub is in Nacala, but we maintain
+                    operational points and site offices across Mozambique to
+                    support nationwide projects and logistics routes.
+                  </p>
+                </div>
+              </details>
+              <details class="faq-item">
+                <summary class="faq-summary">
+                  <span>Can I request a quote for multiple services?</span>
+                  <svg
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    class="faq-chevron"
+                  >
+                    <path
+                      d="m6 9l6 6l6-6"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </summary>
+                <div class="faq-content">
+                  <p class="section-content">
+                    Absolutely. Use the "General Inquiry" or "Partnership"
+                    option in the form and specify the range of services
+                    required in the description field. Our group coordinator
+                    will handle your request.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section>
+        <section class="final-cta">
+          <div class="final-cta-banner">
+            <div class="final-cta-content">
+              <h2 class="section-title">Ready to Start Your Project?</h2>
+              <p class="section-content">
+                Our team is standing by to provide professional, reliable
+                solutions across all our business units. We guarantee prompt
+                follow-up and the highest standards of corporate
+                professionalism.
+              </p>
+              <div class="final-cta-buttons">
+                <a href="tel:+258840000000">
+                  <div class="btn btn-primary btn-lg">
+                    <span>Call Us Now</span>
+                  </div>
+                </a>
+                <a href="#inquiry-form">
+                  <div class="btn btn-accent btn-lg">
+                    <span>Submit Form</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="contact-us-container2">
+          <div class="contact-us-container3">
+            <style>
+                      @keyframes fadeIn {from {opacity: 0;
+              transform: translateY(10px);}
+              to {opacity: 1;
+              transform: translateY(0);}}
+            </style>
+          </div>
+        </div>
+        <div class="contact-us-container4">
+          <div class="contact-us-container5">
+            <script defer="" data-name="contact-page-logic">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  const inquiryForm = document.getElementById("centralInquiryForm")
+                  const successMessage = document.getElementById("formSuccessMessage")
+
+                  if (inquiryForm) {
+                    inquiryForm.addEventListener("submit", function (e) {
+                      // We allow the native validation but intercept to show UI feedback
+                      // In a real production environment, the action attribute would handle the POST
+                      // Here we simulate the successful submission UI transition
+
+                      const isValid = inquiryForm.checkValidity()
+
+                      if (isValid) {
+                        // We prevent default only for this demo's visual feedback
+                        // In reality, you'd let it submit to the action URL
+                        e.preventDefault()
+
+                        inquiryForm.style.display = "none"
+                        successMessage.style.display = "block"
+
+                        // Optional: Scroll to success message
+                        successMessage.scrollIntoView({ behavior: "smooth", block: "center" })
+
+                        // Log for "dashboard/database" simulation
+                        console.log("Form Submission Captured:", new FormData(inquiryForm))
+                      }
+                    })
+                  }
+
+                  // Handle accordion exclusivity (optional enhancement)
+                  const faqItems = document.querySelectorAll(".faq-item")
+                  faqItems.forEach((item) => {
+                    item.addEventListener("click", (e) => {
+                      if (item.hasAttribute("open")) return // Already opening
+
+                      faqItems.forEach((other) => {
+                        if (other !== item && other.hasAttribute("open")) {
+                          other.removeAttribute("open")
+                        }
+                      })
+                    })
+                  })
+                })()
+              });
+            </script>
+          </div>
+        </div>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div class="footer-container1">
+            <footer class="footer-section">
+              <div class="footer-container">
+                <div class="footer-grid">
+                  <div class="footer-brand">
+                    <div class="footer-logo-wrapper">
+                      <span class="footer-logo-text">
+                        <span>VASA</span>
+                        <span class="footer-thq-footer-logo-accent-elm">
+                          GROUP
+                        </span>
+                      </span>
+                    </div>
+                    <p class="footer-description section-content">
+                      Building Mozambique through unified excellence. A
+                      diversified multi-industry business group committed to
+                      quality, professionalism, and nationwide growth.
+                    </p>
+                    <div class="footer-social-links">
+                      <a href="#">
+                        <div aria-label="Facebook" class="footer-social-icon">
+                          <svg
+                            fill="none"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="20"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div aria-label="LinkedIn" class="footer-social-icon">
+                          <svg
+                            fill="none"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="20"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"
+                            ></path>
+                            <circle r="2" cx="4" cy="4"></circle>
+                          </svg>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="footer-links-group">
+                    <h3 class="section-subtitle footer-heading">Explore</h3>
+                    <ul class="footer-list">
+                      <a href="index.html">
+                        <li class="footer-li10">
+                          <div class="footer-link"><span>Home</span></div>
+                        </li>
+                      </a>
+                      <li>
+                        <a href="about-meet-us.html">
+                          <div class="footer-link"><span>About Us</span></div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="contact-us.html">
+                          <div class="footer-link"><span>Contact</span></div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-link">
+                            <span>Mission &amp; Vision</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-link">
+                            <span>Our Standards</span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer-links-group">
+                    <h3 class="section-subtitle footer-heading">
+                      Our Companies
+                    </h3>
+                    <ul class="footer-list">
+                      <li>
+                        <a href="vasa-trading-transport.html">
+                          <div class="footer-link">
+                            <span>VASA Trading Transport</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="VASA Trading Agro">
+                          <div class="footer-link">
+                            <span>VASA Trading Agro</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="mozex.html">
+                          <div class="footer-link"><span>MOZEX</span></div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="moz-fumigation.html">
+                          <div class="footer-thq-footer-link-elm18 footer-link">
+                            <span>MOZ Fumigation</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="vasa-autoshop.html">
+                          <div class="footer-link">
+                            <span>VASA Autoshop</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="ELITE BUILDERS">
+                          <div class="footer-link">
+                            <span>Elite Builders</span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer-links-group">
+                    <h3 class="section-subtitle footer-heading">
+                      Central Office
+                    </h3>
+                    <ul class="footer-contact-list">
+                      <li class="footer-contact-item">
+                        <div class="footer-icon-box">
+                          <svg
+                            fill="none"
+                            width="18"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="18"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="footer-icon15"
+                          >
+                            <path
+                              d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                            ></path>
+                            <circle r="3" cx="12" cy="10"></circle>
+                          </svg>
+                        </div>
+                        <span class="section-content">Nacala, Mozambique</span>
+                      </li>
+                      <li class="footer-contact-item">
+                        <div class="footer-icon-box">
+                          <svg
+                            fill="none"
+                            width="18"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="18"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="footer-icon18"
+                          >
+                            <path
+                              d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                            ></path>
+                          </svg>
+                        </div>
+                        <span class="section-content">+258 87 084 8286</span>
+                      </li>
+                      <li class="footer-contact-item">
+                        <div class="footer-icon-box">
+                          <svg
+                            fill="none"
+                            width="18"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="18"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="footer-icon20"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            >
+                              <path
+                                d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                              ></path>
+                              <rect
+                                x="2"
+                                y="4"
+                                rx="2"
+                                width="20"
+                                height="16"
+                              ></rect>
+                            </g>
+                          </svg>
+                        </div>
+                        <span class="section-content">
+                          info@vasagroupmz.com
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer-bottom">
+                  <div class="footer-divider"></div>
+                  <div class="footer-bottom-content">
+                    <p class="footer-copyright">
+                      © 2024 VASA Group. All Rights Reserved. Nationwide
+                      Operations Mozambique.
+                    </p>
+                    <div class="footer-legal-links">
+                      <a href="#">
+                        <div class="footer-link-sm">
+                          <span>Privacy Policy</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="footer-link-sm">
+                          <span>Terms of Service</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <div class="footer-container2">
+              <div class="footer-container3">
+                <script defer="" data-name="footer-logic">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      // Footer interaction logic
+                      const footerLinks = document.querySelectorAll(".footer-link")
+
+                      footerLinks.forEach((link) => {
+                        link.addEventListener("mouseenter", () => {
+                          // Logic for subtle hover state enhancements could go here
+                          // Currently handled primarily via CSS for performance
+                        })
+                      })
+
+                      // Accessibility: Ensure all social links have proper focus states
+                      const socialIcons = document.querySelectorAll(".footer-social-icon")
+                      socialIcons.forEach((icon) => {
+                        icon.addEventListener("focus", () => {
+                          icon.style.outline = "2px solid var(--color-accent)"
+                          icon.style.outlineOffset = "2px"
+                        })
+                        icon.addEventListener("blur", () => {
+                          icon.style.outline = "none"
+                        })
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </footer-wrapper>
+      </div>
+      <link
+        rel="canonical"
+        href="https://vasagroup.teleporthq.app/contact-us"
+      />
+    </div>
+  </body>
 </html>

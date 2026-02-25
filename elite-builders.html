@@ -1,19 +1,1351 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Elite Builders</title>
-</head>
-<body>
-    <form action="https://formspree.io/f/mdaldjok" method="post">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send</button>
-    </form>
-    <form action="https://formspree.io/f/mdaldjok" method="post">
-        <input type="text" name="service" placeholder="Service" required>
-        <input type="text" name="location" placeholder="Location" required>
-        <button type="submit">Submit</button>
-    </form>
-</body>
+<html lang="en">
+  <head>
+    <title>ELITE-BUILDERS - Vasa Group</title>
+    <meta property="og:title" content="ELITE-BUILDERS - Vasa Group" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Roboto;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0.02em;
+        line-height: 1.6;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/vasa group.jpg"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./elite-builders.css" rel="stylesheet" />
+
+      <div class="elitebuilders-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div class="navigation-container1">
+            <nav id="mainNav" class="navigation-bar">
+              <div class="navigation-container">
+                <a href="index.html">
+                  <div class="navigation-logo">
+                    <div class="navigation-logo-icon"><span>V</span></div>
+                    <span class="section-title">VASA Group</span>
+                  </div>
+                </a>
+                <div class="navigation-desktop-menu">
+                  <a href="index.html">
+                    <div class="navigation-link"><span>Home</span></div>
+                  </a>
+                  <a href="about-meet-us.html">
+                    <div class="navigation-link"><span>About</span></div>
+                  </a>
+                  <div class="navigation-dropdown">
+                    <button
+                      aria-haspopup="true"
+                      class="navigation-link navigation-dropdown-trigger"
+                    >
+                      <span>Our Businesses</span>
+                      <div class="navigation-thq-navigation-icon-wrapper-elm">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m6 9l6 6l6-6"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </svg>
+                      </div>
+                    </button>
+                    <div class="navigation-dropdown-content">
+                      <a href="vasa-trading-transport.html">
+                        <div class="navigation-dropdown-link">
+                          <span>VASA Trading Transport</span>
+                        </div>
+                      </a>
+                      <a href="VASA Trading Agro">
+                        <div class="navigation-dropdown-link">
+                          <span>VASA Trading Agro</span>
+                        </div>
+                      </a>
+                      <a href="moz-fumigation.html">
+                        <div class="navigation-dropdown-link">
+                          <span>MOZ FUMIGATION</span>
+                        </div>
+                      </a>
+                      <a href="MOZEX">
+                        <div class="navigation-dropdown-link">
+                          <span>MOZEX</span>
+                        </div>
+                      </a>
+                      <a href="vasa-autoshop.html">
+                        <div class="navigation-dropdown-link">
+                          <span>VASA AUTOSHOP</span>
+                        </div>
+                      </a>
+                      <a href="ELITE BUILDERS">
+                        <div class="navigation-dropdown-link">
+                          <span>ELITE BUILDERS</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <a href="contact-us.html">
+                    <div class="btn-sm btn btn-primary">
+                      <span>Contact Us</span>
+                    </div>
+                  </a>
+                </div>
+                <button
+                  id="mobileMenuOpen"
+                  aria-label="Open Menu"
+                  aria-expanded="false"
+                  class="navigation-mobile-toggle"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M4 6h16M4 12h16M4 18h16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </nav>
+            <div id="mobileOverlay" class="navigation-mobile-overlay">
+              <div class="navigation-mobile-header">
+                <a href="index.html">
+                  <div class="navigation-logo">
+                    <div class="navigation-logo-icon"><span>V</span></div>
+                    <span class="section-title">VASA Group</span>
+                  </div>
+                </a>
+                <button
+                  id="mobileMenuClose"
+                  aria-label="Close Menu"
+                  class="navigation-mobile-close"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1zm-5.5-3.5l-5 5m0-5l5 5"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="navigation-mobile-content">
+                <div class="navigation-mobile-links">
+                  <a href="index.html">
+                    <div class="navigation-mobile-link"><span>Home</span></div>
+                  </a>
+                  <a href="about-meet-us.html">
+                    <div class="navigation-mobile-link">
+                      <span>About Us</span>
+                    </div>
+                  </a>
+                  <div class="navigation-mobile-group">
+                    <span class="navigation-mobile-label">Our Companies</span>
+                    <a href="vasa-trading-transport.html">
+                      <div class="navigation-mobile-link">
+                        <span>VASA Trading Transport</span>
+                      </div>
+                    </a>
+                    <a href="VASA Trading Agro">
+                      <div class="navigation-mobile-link">
+                        <span>VASA Trading Agro</span>
+                      </div>
+                    </a>
+                    <a href="moz-fumigation.html">
+                      <div class="navigation-mobile-link">
+                        <span>MOZ FUMIGATION</span>
+                      </div>
+                    </a>
+                    <a href="MOZEX">
+                      <div class="navigation-mobile-link">
+                        <span>MOZEX</span>
+                      </div>
+                    </a>
+                    <a href="vasa-autoshop.html">
+                      <div class="navigation-mobile-link">
+                        <span>VASA AUTOSHOP</span>
+                      </div>
+                    </a>
+                    <a href="ELITE BUILDERS">
+                      <div class="navigation-mobile-link">
+                        <span>ELITE BUILDERS</span>
+                      </div>
+                    </a>
+                  </div>
+                  <a href="contact-us.html">
+                    <div class="btn btn-primary btn-lg">
+                      <span>Contact Us</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <script defer="" data-name="navigation-logic">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const mobileMenuOpen = document.getElementById("mobileMenuOpen")
+                      const mobileMenuClose = document.getElementById("mobileMenuClose")
+                      const mobileOverlay = document.getElementById("mobileOverlay")
+                      const navBar = document.getElementById("mainNav")
+
+                      mobileMenuOpen.addEventListener("click", () => {
+                        mobileOverlay.style.display = "flex"
+                        document.body.style.overflow = "hidden"
+                        mobileMenuOpen.setAttribute("aria-expanded", "true")
+                      })
+
+                      mobileMenuClose.addEventListener("click", () => {
+                        mobileOverlay.style.display = "none"
+                        document.body.style.overflow = ""
+                        mobileMenuOpen.setAttribute("aria-expanded", "false")
+                      })
+
+                      // Handle scroll effect for navigation
+                      window.addEventListener("scroll", () => {
+                        if (window.scrollY > 50) {
+                          navBar.style.padding = "var(--spacing-sm) 0"
+                          navBar.style.boxShadow = "0 4px 20px rgba(0,0,0,0.05)"
+                        } else {
+                          navBar.style.padding = "var(--spacing-md) 0"
+                          navBar.style.boxShadow = "none"
+                        }
+                      })
+
+                      // Close mobile menu on link click
+                      const mobileLinks = mobileOverlay.querySelectorAll(".navigation-mobile-link, .btn")
+                      mobileLinks.forEach((link) => {
+                        link.addEventListener("click", () => {
+                          mobileOverlay.style.display = "none"
+                          document.body.style.overflow = ""
+                          mobileMenuOpen.setAttribute("aria-expanded", "false")
+                        })
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </navigation-wrapper>
+        <section class="elite-hero">
+          <div class="elite-hero-media">
+            <img
+              alt="Elite Builders Construction Site"
+              src="https://images.pexels.com/photos/36065437/pexels-photo-36065437.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+              class="elite-hero-img"
+            />
+            <div class="elite-hero-overlay"></div>
+          </div>
+          <div class="elite-hero-container">
+            <div class="elite-hero-content">
+              <h1 class="hero-title">Elite Builders</h1>
+              <p class="hero-subtitle">
+                Constructing the Future of Mozambique with Precision and
+                Integrity
+              </p>
+              <div class="elite-hero-description">
+                <p class="section-content">
+                  As a premier member of the VASA Group, Elite Builders stands
+                  as a cornerstone of reliable construction and civil
+                  engineering in Mozambique. We provide comprehensive building
+                  solutions, from initial groundbreaking to final occupancy,
+                  ensuring every project reflects our commitment to unified
+                  excellence.
+                </p>
+              </div>
+              <div class="elite-hero-actions">
+                <div class="btn btn-primary btn-lg">
+                  <span>Request a Consultation</span>
+                </div>
+                <a href="#services">
+                  <div class="btn btn-lg btn-outline">
+                    <span>Explore Services</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="elite-about">
+          <div class="elite-about-container">
+            <div class="elite-about-card">
+              <h2 class="section-title">
+                Structural Excellence &amp; Reliability
+              </h2>
+              <div class="elite-about-grid">
+                <div class="elite-about-text">
+                  <p class="section-content">
+                    Elite Builders is dedicated to delivering high-quality
+                    construction services across Mozambique, backed by the
+                    diverse expertise of the VASA Group. Our structured
+                    operations are built on a foundation of rigorous project
+                    management, ensuring that every residential, commercial, and
+                    industrial development we undertake meets international
+                    safety and quality standards.
+                  </p>
+                  <p class="section-content">
+                    With over 8 years of experience in the Mozambican market, we
+                    have refined our commitment to quality and safety. Our team
+                    of skilled professionals utilizes modern equipment and
+                    proven methodologies to deliver projects on time and within
+                    budget, fostering trust and long-term partnerships with our
+                    clients nationwide.
+                  </p>
+                </div>
+                <div class="elite-about-visual">
+                  <img
+                    alt="Professional Engineering Team"
+                    src="https://images.pexels.com/photos/8961132/pexels-photo-8961132.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    class="elite-about-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="services" class="elite-services">
+          <div class="elite-services-container">
+            <div class="elite-services-header">
+              <h2 class="section-title">Core Construction Services</h2>
+              <p class="section-subtitle">
+                Comprehensive building solutions tailored to the Mozambican
+                landscape.
+              </p>
+            </div>
+            <div class="elite-services-grid">
+              <div class="elite-service-item">
+                <div class="elite-service-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M10 12h4m-4-4h4m0 13v-3a2 2 0 0 0-4 0v3"></path>
+                      <path
+                        d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"
+                      ></path>
+                      <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Commercial Construction</h3>
+                <p class="section-content">
+                  Developing state-of-the-art office spaces, retail centers, and
+                  industrial facilities with modern architectural standards.
+                </p>
+              </div>
+              <div class="elite-service-item">
+                <div class="elite-service-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="m15 12l-9.373 9.373a1 1 0 0 1-3.001-3L12 9m6 6l4-4"
+                      ></path>
+                      <path
+                        d="m21.5 11.5l-1.914-1.914A2 2 0 0 1 19 8.172v-.344a2 2 0 0 0-.586-1.414l-1.657-1.657A6 6 0 0 0 12.516 3H9l1.243 1.243A6 6 0 0 1 12 8.485V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Residential Building</h3>
+                <p class="section-content">
+                  Crafting high-quality homes and multi-family residential
+                  complexes that prioritize comfort, durability, and style.
+                </p>
+              </div>
+              <div class="elite-service-item">
+                <div class="elite-service-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M6 21h6m-3 0V3L3 9h18M9 3l10 6"></path>
+                      <path d="M17 9v4a2 2 0 1 1-2 2"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Civil Works</h3>
+                <p class="section-content">
+                  Infrastructure development including site preparation,
+                  drainage systems, and structural concrete foundations.
+                </p>
+              </div>
+              <div class="elite-service-item">
+                <div class="elite-service-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m21 7v6h-6"></path>
+                      <path
+                        d="M3 17a9 9 0 0 1 9-9a9 9 0 0 1 6 2.3l3 2.7"
+                      ></path>
+                      <circle r="1" cx="12" cy="17"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Renovations &amp; Remodeling</h3>
+                <p class="section-content">
+                  Breathe new life into existing structures with professional
+                  modern upgrades and structural enhancements.
+                </p>
+              </div>
+              <div class="elite-service-item">
+                <div class="elite-service-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-2.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2"
+                      ></path>
+                      <circle r="1" cx="12" cy="13"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Project Management</h3>
+                <p class="section-content">
+                  End-to-end oversight ensuring timeline adherence, resource
+                  optimization, and strict budget management.
+                </p>
+              </div>
+              <div class="elite-service-item">
+                <div class="elite-service-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                      ></path>
+                      <path d="m9 12l2 2l4-4"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Structural Engineering</h3>
+                <p class="section-content">
+                  Specialized structural analysis and design services to ensure
+                  the longevity and safety of complex architectural projects.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="elite-operations">
+          <div class="elite-operations-container">
+            <div class="elite-operations-header">
+              <h2 class="section-title">Operations &amp; Capacity</h2>
+              <p class="section-subtitle">
+                Strategic deployment and resource management across Mozambique.
+              </p>
+            </div>
+            <div class="elite-operations-grid">
+              <div class="elite-op-card">
+                <div class="elite-op-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                      ></path>
+                      <circle r="3" cx="12" cy="10"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Service Area</h3>
+                <p class="section-content">
+                  Headquartered in Nacala, we provide nationwide coverage across
+                  Mozambique, with active projects in Maputo, Beira, and
+                  Nampula.
+                </p>
+              </div>
+              <div class="elite-op-card">
+                <div class="elite-op-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M12 6v6h4"></path>
+                      <circle r="10" cx="12" cy="12"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Operating Hours</h3>
+                <p class="section-content">
+                  Standard site operations: 07:00 – 17:00 (Mon-Fri). Emergency
+                  structural support and critical site management available
+                  24/7.
+                </p>
+              </div>
+              <div class="elite-op-card">
+                <div class="elite-op-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M6 21h6m-3 0V3L3 9h18M9 3l10 6"></path>
+                      <path d="M17 9v4a2 2 0 1 1-2 2"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Fleet &amp; Equipment</h3>
+                <p class="section-content">
+                  Proprietary inventory of heavy machinery including excavators,
+                  concrete mixers, and scaffolding systems for large-scale
+                  projects.
+                </p>
+              </div>
+              <div class="elite-op-card">
+                <div class="elite-op-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M10.268 21a2 2 0 0 0 3.464 0M11.68 2.009A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673c-.824-.85-1.678-1.731-2.21-3.348"
+                      ></path>
+                      <circle r="3" cx="18" cy="5"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Project Timelines</h3>
+                <p class="section-content">
+                  Average residential turnaround: 6–12 months. Commercial
+                  shells: 4–8 months. We prioritize efficient phased delivery to
+                  minimize downtime.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="elite-pricing">
+          <div class="elite-pricing-container">
+            <div class="elite-pricing-header">
+              <h2 class="section-title">Pricing &amp; Contracts</h2>
+              <p class="section-subtitle">
+                Transparent quotation framework for every structural
+                requirement.
+              </p>
+            </div>
+            <div class="elite-accordion-wrapper">
+              <details open="true" class="elite-pricing-details">
+                <summary class="elite-pricing-summary">
+                  <span class="section-subtitle">Quotation-Based Pricing</span>
+                  <svg
+                    fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="elite-accordion-icon"
+                  >
+                    <path d="m6 9 6 6 6-6"></path>
+                  </svg>
+                </summary>
+                <div class="elite-pricing-content">
+                  <p class="section-content">
+                    All projects at Elite Builders are priced via a detailed
+                    quotation process. This ensures accuracy and fair market
+                    value based on current material costs and technical
+                    specifications. We provide a transparent breakdown of labor,
+                    materials, and overheads.
+                  </p>
+                </div>
+              </details>
+              <details class="elite-pricing-details">
+                <summary class="elite-pricing-summary">
+                  <span class="section-subtitle">
+                    Factors Affecting Project Cost
+                  </span>
+                  <svg
+                    fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="elite-accordion-icon"
+                  >
+                    <path d="m6 9 6 6 6-6"></path>
+                  </svg>
+                </summary>
+                <div class="elite-pricing-content">
+                  <p class="section-content">
+                    Total investment is determined by several key factors
+                    including site location (logistics), soil conditions
+                    (foundation complexity), material finishes (standard vs.
+                    luxury), and required completion timeline (expedited vs.
+                    standard).
+                  </p>
+                </div>
+              </details>
+              <details class="elite-pricing-details">
+                <summary class="elite-pricing-summary">
+                  <span class="section-subtitle">
+                    Contract Availability &amp; Terms
+                  </span>
+                  <svg
+                    fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="elite-accordion-icon"
+                  >
+                    <path d="m6 9 6 6 6-6"></path>
+                  </svg>
+                </summary>
+                <div class="elite-pricing-content">
+                  <p class="section-content">
+                    We offer various contract structures including Lump Sum,
+                    Cost-Plus, and Design-Build. All contracts include
+                    milestone-based payment schedules, performance guarantees,
+                    and comprehensive insurance coverage.
+                  </p>
+                </div>
+              </details>
+              <details class="elite-pricing-details">
+                <summary class="elite-pricing-summary">
+                  <span class="section-subtitle">Sample Scope of Works</span>
+                  <svg
+                    fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="elite-accordion-icon"
+                  >
+                    <path d="m6 9 6 6 6-6"></path>
+                  </svg>
+                </summary>
+                <div class="elite-pricing-content">
+                  <p class="section-content">
+                    Typical scope items include: Site clearance, foundation
+                    works, super-structure (brick/concrete), roofing, electrical
+                    &amp; plumbing rough-ins, internal finishes, and external
+                    landscaping/paving.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section>
+        <section class="elite-trust">
+          <div class="elite-trust-container">
+            <div class="elite-trust-header">
+              <h2 class="section-title">Trust &amp; Standards</h2>
+              <p class="section-subtitle">
+                A legacy of quality under the VASA Group umbrella.
+              </p>
+            </div>
+            <div class="elite-trust-grid">
+              <div class="elite-trust-item">
+                <div class="elite-trust-value"><span>8+</span></div>
+                <h3 class="section-subtitle">Years Experience</h3>
+                <p class="section-content">
+                  Deeply rooted in the Mozambican construction industry since
+                  2018.
+                </p>
+              </div>
+              <div class="elite-trust-item">
+                <div class="elite-trust-value"><span>100%</span></div>
+                <h3 class="section-subtitle">Compliance</h3>
+                <p class="section-content">
+                  Fully licensed and insured for all civil and structural works
+                  nationwide.
+                </p>
+              </div>
+              <div class="elite-trust-item">
+                <div class="elite-trust-value"><span>24h</span></div>
+                <h3 class="section-subtitle">Response Promise</h3>
+                <p class="section-content">
+                  Rapid response to all inquiries and on-site technical
+                  challenges.
+                </p>
+              </div>
+              <div class="elite-trust-item">
+                <div class="elite-trust-value"><span>ISO</span></div>
+                <h3 class="section-subtitle">Quality Standards</h3>
+                <p class="section-content">
+                  Adherence to international building codes and safety
+                  protocols.
+                </p>
+              </div>
+              <div class="elite-trust-item">
+                <div class="elite-trust-value"><span>Zero</span></div>
+                <h3 class="section-subtitle">Safety Incidents</h3>
+                <p class="section-content">
+                  Unwavering commitment to a safe working environment for all
+                  staff.
+                </p>
+              </div>
+              <div class="elite-trust-item">
+                <div class="elite-trust-value"><span>VASA</span></div>
+                <h3 class="section-subtitle">Group Backing</h3>
+                <p class="section-content">
+                  Financial stability and logistical support from a diversified
+                  group.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="elite-cases">
+          <div class="elite-cases-header">
+            <h2 class="section-title">Project Case Studies</h2>
+            <p class="section-subtitle">
+              Showcasing our capability through delivered excellence.
+            </p>
+          </div>
+          <div class="elite-cases-grid">
+            <div class="elite-case-item">
+              <img
+                alt="Industrial Hub Project"
+                src="https://images.pexels.com/photos/19370588/pexels-photo-19370588.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                class="elite-case-img"
+              />
+              <div class="elite-case-overlay">
+                <h3 class="section-subtitle">Nacala Industrial Hub</h3>
+                <p class="section-content">
+                  Construction of a 5,000sqm logistics warehouse with reinforced
+                  concrete flooring.
+                </p>
+                <span class="elite-case-stat">Completed: 7 Months</span>
+              </div>
+            </div>
+            <div class="elite-case-item">
+              <img
+                alt="Modern Office Block"
+                src="https://images.pexels.com/photos/31865990/pexels-photo-31865990.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                class="elite-case-img"
+              />
+              <div class="elite-case-overlay">
+                <h3 class="section-subtitle">Maputo Corporate Plaza</h3>
+                <p class="section-content">
+                  Structural shell and core for a 4-story modern office
+                  development in the CBD.
+                </p>
+                <span class="elite-case-stat">Result: 15% Under Budget</span>
+              </div>
+            </div>
+            <div class="elite-case-item">
+              <img
+                alt="Residential Complex"
+                src="https://images.pexels.com/photos/32096990/pexels-photo-32096990.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                class="elite-case-img"
+              />
+              <div class="elite-case-overlay">
+                <h3 class="section-subtitle">Beira Executive Villas</h3>
+                <p class="section-content">
+                  A luxury gated community featuring 10 custom-designed
+                  residential units.
+                </p>
+                <span class="elite-case-stat">Quality: A+ Rating</span>
+              </div>
+            </div>
+            <div class="elite-case-item">
+              <img
+                alt="Agro-Processing Facility"
+                src="https://images.pexels.com/photos/31945552/pexels-photo-31945552.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                class="elite-case-img"
+              />
+              <div class="elite-case-overlay">
+                <h3 class="section-subtitle">Agro-Processing Facility</h3>
+                <p class="section-content">
+                  Specialized structural works for VASA Trading Agro's primary
+                  processing plant.
+                </p>
+                <span class="elite-case-stat">
+                  Unified: Cross-Industry Success
+                </span>
+              </div>
+            </div>
+            <div class="elite-case-item">
+              <img
+                alt="Civil Infrastructure"
+                src="https://images.pexels.com/photos/1078879/pexels-photo-1078879.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                class="elite-case-img"
+              />
+              <div class="elite-case-overlay">
+                <h3 class="section-subtitle">Coastal Defense Works</h3>
+                <p class="section-content">
+                  Civil engineering project focusing on erosion control and
+                  structural seawall reinforcement.
+                </p>
+                <span class="elite-case-stat">
+                  Durability: 50-Year Design Life
+                </span>
+              </div>
+            </div>
+            <div class="elite-case-item">
+              <img
+                alt="Retail Center Renovation"
+                src="https://images.pexels.com/photos/15794759/pexels-photo-15794759.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                class="elite-case-img"
+              />
+              <div class="elite-case-overlay">
+                <h3 class="section-subtitle">Nampula Retail Mall</h3>
+                <p class="section-content">
+                  Comprehensive renovation and modernization of a 2,500sqm
+                  retail destination.
+                </p>
+                <span class="elite-case-stat">
+                  Traffic: +40% Post-Renovation
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="elitebuilders-container2">
+          <div class="elitebuilders-container3">
+            <style>
+                      @keyframes fadeIn {from {opacity: 0;
+              transform: translateY(10px);}
+              to {opacity: 1;
+              transform: translateY(0);}}
+            </style>
+          </div>
+        </div>
+        <div class="elitebuilders-container4">
+          <div class="elitebuilders-container5">
+            <script defer="" data-name="elite-builders-logic">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  // Handle Inquiry Form Submission
+                  const inquiryForm = document.getElementById("inquiryForm")
+                  const successMessage = document.getElementById("successMessage")
+
+                  if (inquiryForm) {
+                    inquiryForm.addEventListener("submit", function (e) {
+                      // In a real environment, the form action would handle this.
+                      // We simulate the success state for UX demonstration.
+                      e.preventDefault()
+
+                      // Basic validation check
+                      if (inquiryForm.checkValidity()) {
+                        // Hide form and show success message
+                        inquiryForm.style.display = "none"
+                        successMessage.style.display = "flex"
+
+                        // Scroll to message
+                        successMessage.scrollIntoView({ behavior: "smooth", block: "center" })
+
+                        // Optional: In a production app, you would use fetch() here
+                        // if you weren't using a standard form action.
+                        console.log("Form data captured:", new FormData(inquiryForm))
+                      }
+                    })
+                  }
+
+                  // Handle Accordion Accessibility (Optional enhancement for smooth feel)
+                  const details = document.querySelectorAll(".elite-pricing-details")
+                  details.forEach((targetDetail) => {
+                    targetDetail.addEventListener("click", () => {
+                      // Close other accordions when one is opened (optional behavior)
+                      details.forEach((detail) => {
+                        if (detail !== targetDetail) {
+                          detail.removeAttribute("open")
+                        }
+                      })
+                    })
+                  })
+
+                  // Parallax Effect for Hero
+                  window.addEventListener("scroll", () => {
+                    const heroImg = document.querySelector(".elite-hero-img")
+                    if (heroImg) {
+                      const scrollPos = window.pageYOffset
+                      heroImg.style.transform = `translateY(${scrollPos * 0.3}px)`
+                    }
+                  })
+                })()
+              });
+            </script>
+          </div>
+        </div>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div class="footer-container1">
+            <footer class="footer-section">
+              <div class="footer-container">
+                <div class="footer-grid">
+                  <div class="footer-brand">
+                    <div class="footer-logo-wrapper">
+                      <span class="footer-logo-text">
+                        <span>VASA</span>
+                        <span class="footer-thq-footer-logo-accent-elm">
+                          GROUP
+                        </span>
+                      </span>
+                    </div>
+                    <p class="footer-description section-content">
+                      Building Mozambique through unified excellence. A
+                      diversified multi-industry business group committed to
+                      quality, professionalism, and nationwide growth.
+                    </p>
+                    <div class="footer-social-links">
+                      <a href="#">
+                        <div aria-label="Facebook" class="footer-social-icon">
+                          <svg
+                            fill="none"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="20"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div aria-label="LinkedIn" class="footer-social-icon">
+                          <svg
+                            fill="none"
+                            width="20"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="20"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"
+                            ></path>
+                            <circle r="2" cx="4" cy="4"></circle>
+                          </svg>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="footer-links-group">
+                    <h3 class="section-subtitle footer-heading">Explore</h3>
+                    <ul class="footer-list">
+                      <a href="index.html">
+                        <li class="footer-li10">
+                          <div class="footer-link"><span>Home</span></div>
+                        </li>
+                      </a>
+                      <li>
+                        <a href="about-meet-us.html">
+                          <div class="footer-link"><span>About Us</span></div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="contact-us.html">
+                          <div class="footer-link"><span>Contact</span></div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-link">
+                            <span>Mission &amp; Vision</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-link">
+                            <span>Our Standards</span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer-links-group">
+                    <h3 class="section-subtitle footer-heading">
+                      Our Companies
+                    </h3>
+                    <ul class="footer-list">
+                      <li>
+                        <a href="vasa-trading-transport.html">
+                          <div class="footer-link">
+                            <span>VASA Trading Transport</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="VASA Trading Agro">
+                          <div class="footer-link">
+                            <span>VASA Trading Agro</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="mozex.html">
+                          <div class="footer-link"><span>MOZEX</span></div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="moz-fumigation.html">
+                          <div class="footer-thq-footer-link-elm18 footer-link">
+                            <span>MOZ Fumigation</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="vasa-autoshop.html">
+                          <div class="footer-link">
+                            <span>VASA Autoshop</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="ELITE BUILDERS">
+                          <div class="footer-link">
+                            <span>Elite Builders</span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer-links-group">
+                    <h3 class="section-subtitle footer-heading">
+                      Central Office
+                    </h3>
+                    <ul class="footer-contact-list">
+                      <li class="footer-contact-item">
+                        <div class="footer-icon-box">
+                          <svg
+                            fill="none"
+                            width="18"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="18"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="footer-icon15"
+                          >
+                            <path
+                              d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                            ></path>
+                            <circle r="3" cx="12" cy="10"></circle>
+                          </svg>
+                        </div>
+                        <span class="section-content">Nacala, Mozambique</span>
+                      </li>
+                      <li class="footer-contact-item">
+                        <div class="footer-icon-box">
+                          <svg
+                            fill="none"
+                            width="18"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="18"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="footer-icon18"
+                          >
+                            <path
+                              d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                            ></path>
+                          </svg>
+                        </div>
+                        <span class="section-content">+258 87 084 8286</span>
+                      </li>
+                      <li class="footer-contact-item">
+                        <div class="footer-icon-box">
+                          <svg
+                            fill="none"
+                            width="18"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="18"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="footer-icon20"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            >
+                              <path
+                                d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                              ></path>
+                              <rect
+                                x="2"
+                                y="4"
+                                rx="2"
+                                width="20"
+                                height="16"
+                              ></rect>
+                            </g>
+                          </svg>
+                        </div>
+                        <span class="section-content">
+                          info@vasagroupmz.com
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer-bottom">
+                  <div class="footer-divider"></div>
+                  <div class="footer-bottom-content">
+                    <p class="footer-copyright">
+                      © 2024 VASA Group. All Rights Reserved. Nationwide
+                      Operations Mozambique.
+                    </p>
+                    <div class="footer-legal-links">
+                      <a href="#">
+                        <div class="footer-link-sm">
+                          <span>Privacy Policy</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="footer-link-sm">
+                          <span>Terms of Service</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <div class="footer-container2">
+              <div class="footer-container3">
+                <script defer="" data-name="footer-logic">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      // Footer interaction logic
+                      const footerLinks = document.querySelectorAll(".footer-link")
+
+                      footerLinks.forEach((link) => {
+                        link.addEventListener("mouseenter", () => {
+                          // Logic for subtle hover state enhancements could go here
+                          // Currently handled primarily via CSS for performance
+                        })
+                      })
+
+                      // Accessibility: Ensure all social links have proper focus states
+                      const socialIcons = document.querySelectorAll(".footer-social-icon")
+                      socialIcons.forEach((icon) => {
+                        icon.addEventListener("focus", () => {
+                          icon.style.outline = "2px solid var(--color-accent)"
+                          icon.style.outlineOffset = "2px"
+                        })
+                        icon.addEventListener("blur", () => {
+                          icon.style.outline = "none"
+                        })
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </footer-wrapper>
+      </div>
+      <link
+        rel="canonical"
+        href="https://vasagroup.teleporthq.app/elite-builders"
+      />
+    </div>
+  </body>
 </html>

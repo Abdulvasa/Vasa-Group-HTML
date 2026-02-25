@@ -32,6 +32,29 @@
   color: var(--color-accent);
 }
  
+.footer-li10 {
+  text-decoration: none;
+}
+ 
+.footer-thq-footer-link-elm18 {
+  text-decoration: none;
+}
+ 
+.footer-icon15 {
+  width: 23px;
+  height: 25px;
+}
+ 
+.footer-icon18 {
+  width: 26px;
+  height: 26px;
+}
+ 
+.footer-icon20 {
+  width: 26px;
+  height: 24px;
+}
+ 
 .footer-container2 {
   display: none;
 }
@@ -46,14 +69,32 @@
   min-height: 100vh;
 }
  
-.vasa-trading-transport-thq-success-message-elm {
-  display: none;
-}
- 
 .vasa-trading-transport-container2 {
   display: none;
 }
  
 .vasa-trading-transport-container3 {
+  display: contents;
+}
+ 
+.vasa-trading-transport-container4 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.vasa-trading-transport-thq-transport-gallery-elm {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.vasa-trading-transport-thq-project-gallery-section-elm {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.vasa-trading-transport-container5 {
+  display: none;
+}
+ 
+.vasa-trading-transport-container6 {
   display: contents;
 }

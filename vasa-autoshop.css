@@ -32,6 +32,29 @@
   color: var(--color-accent);
 }
  
+.footer-li10 {
+  text-decoration: none;
+}
+ 
+.footer-thq-footer-link-elm18 {
+  text-decoration: none;
+}
+ 
+.footer-icon15 {
+  width: 23px;
+  height: 25px;
+}
+ 
+.footer-icon18 {
+  width: 26px;
+  height: 26px;
+}
+ 
+.footer-icon20 {
+  width: 26px;
+  height: 24px;
+}
+ 
 .footer-container2 {
   display: none;
 }
@@ -52,10 +75,6 @@
  
 .vasaautoshop-container3 {
   display: contents;
-}
- 
-.vasaautoshop-thq-vasa-success-msg-elm {
-  display: none;
 }
  
 .vasaautoshop-container4 {
